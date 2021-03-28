@@ -110,5 +110,5 @@ if __name__ == "__main__":
           "******************************************************************"))
     define_model()
     #  app.run() # outside of a Docker container
-    app.run(host='0.0.0.0')  # within a Docker container
+    app.run(host='0.0.0.0',port=8080)  # within a Docker container
 

@@ -1,5 +1,5 @@
 pandas
-numpy==1.18.5
+numpy==1.19.2
 tensorflow
 keras
 flask
